@@ -1,6 +1,6 @@
 # CarlosFloresReadme
 
-# Hey there, I'm [Carlos] 👋
+# Hey there, I'm Carlos 👋
 
 I’m a web developer with a solid foundation in both frontend and backend. I don't just write code; I focus on building tools that actually work and solve problems. 
 
@@ -24,7 +24,7 @@ I’m flexible and can adapt to different project needs, such as:
 ### 📬 Let's talk
 I'm currently **actively looking for a full-time position or interesting freelance gigs**. If you have a project in mind or a spot in your team, let’s connect.
 
-*   **Email:** [carloscruch@gmail.com]
-*   **Location:** [Remote]
+*   **Email:** carloscruch@gmail.com
+*   **Location:** Remote
 
 "I prefer simple code over complex headaches."
