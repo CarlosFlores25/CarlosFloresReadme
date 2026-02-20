@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollador Web | Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="logo">Porta<span>folio</span></a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero section">
+        <div class="hero-content reveal">
+            <h2 class="subtitle">Hola, soy un</h2>
+            <h1 class="title">Desarrollador <br><span class="highlight">Multi-disciplinario</span></h1>
+            <p class="description">
+                Especializado en crear experiencias digitales fluidas, escalables y visualmente impactantes usando tecnologías modernas en el Frontend y Backend.
+            </p>
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn btn-primary">Ver Mis Proyectos</a>
+                <a href="#contacto" class="btn btn-outline">Contáctame</a>
+            </div>
+        </div>
+        <div class="hero-visual reveal reveal-delay">
+            <div class="glass-orb">
+                <div class="code-snippet">
+                    <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">habilidades</span>: [<span class="string">"Web"</span>, <span class="string">"Data"</span>],
+  <span class="property">enfoque</span>: <span class="string">"Excelencia"</span>,
+  <span class="property">stack</span>: [<span class="string">"PHP"</span>, <span class="string">"Python"</span>, <span class="string">"JS"</span>]
+};</code></pre>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="habilidades" class="section skills-section">
+        <div class="section-header reveal">
+            <h2>Mis <span class="highlight">Habilidades</span></h2>
+            <p>Conocimientos técnicos y herramientas que utilizo para dar vida a los sistemas integrales y atractivos.</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <div class="skill-icon">🌐</div>
+                <h3>Estructura & Estilo</h3>
+                <p><strong>HTML & CSS</strong> avanzados con diseños modernos, responsivos y animaciones fluidas.</p>
+            </div>
+            <div class="skill-card reveal reveal-delay">
+                <div class="skill-icon">⚡</div>
+                <h3>Interactividad</h3>
+                <p><strong>JavaScript</strong> nativo y moderno (ES6+) para interfaces reactivas y manipulación dinámica del DOM.</p>
+            </div>
+            <div class="skill-card reveal reveal-delay-2">
+                <div class="skill-icon">⚙️</div>
+                <h3>Backend</h3>
+                <p><strong>PHP y Python</strong> para la creación de lógica robusta, APIS y manejo eficiente del servidor.</p>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon">🗄️</div>
+                <h3>Datos</h3>
+                <p>Gestión de <strong>Bases de Datos</strong> relacionales y consumo/envío de datos estructurados en formato <strong>JSON</strong>.</p>
+            </div>
+        </div>
+        
+        <div class="tech-tags reveal">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Base de Datos</span>
+            <span class="tag">PHP</span>
+            <span class="tag">JSON</span>
+            <span class="tag">Python</span>
+        </div>
+    </section>
+
+    <section id="proyectos" class="section projects-section">
+        <div class="section-header reveal">
+            <h2>Proyectos de <span class="highlight">GitHub</span></h2>
+            <p>Una selección de mis repositorios y aplicaciones en desarrollo.</p>
+        </div>
+        <div class="projects-grid" id="github-projects">
+            <!-- Project Card 1 -->
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <div class="project-bg style-1"></div>
+                    <div class="project-icon">App</div>
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="ptag">PHP</span>
+                        <span class="ptag">Base de Datos</span>
+                    </div>
+                    <h3>Sistema Integral de Gestión</h3>
+                    <p>Una aplicación robusta con base de datos para la administración completa de plataformas con control de usuarios y registro.</p>
+                    <a href="#" class="project-link">Ver en GitHub <span>&rarr;</span></a>
+                </div>
+            </div>
+            <!-- Project Card 2 -->
+            <div class="project-card reveal reveal-delay">
+                <div class="project-image">
+                    <div class="project-bg style-2"></div>
+                    <div class="project-icon">API</div>
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="ptag">Python</span>
+                        <span class="ptag">JSON</span>
+                    </div>
+                    <h3>Servicio de Procesamiento de Datos</h3>
+                    <p>Servicio backend creado en Python para procesar grandes volúmenes de datos en formato JSON de manera extremadamente eficiente.</p>
+                    <a href="#" class="project-link">Ver en GitHub <span>&rarr;</span></a>
+                </div>
+            </div>
+            <!-- Project Card 3 -->
+            <div class="project-card reveal reveal-delay-2">
+                <div class="project-image">
+                    <div class="project-bg style-3"></div>
+                    <div class="project-icon">Web</div>
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="ptag">HTML</span>
+                        <span class="ptag">CSS</span>
+                        <span class="ptag">JS</span>
+                    </div>
+                    <h3>Dashboard Interactivo Moderno</h3>
+                    <p>Interfaz de usuario moderna con animaciones minimalistas, soporte oscuro y gráficas dinámicas alimentadas en tiempo real.</p>
+                    <a href="#" class="project-link">Ver en GitHub <span>&rarr;</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <div class="contact-container glass-panel reveal">
+            <div class="contact-info">
+                <h2>¿Tienes un <span class="highlight">Proyecto</span>?</h2>
+                <p>Estoy disponible para colaborar. Déjame tus datos y me pondré en contacto contigo lo más rápido posible.</p>
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank" class="social-icon">GitHub</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                    <a href="#" class="social-icon">Email</a>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" required placeholder=" ">
+                    <label for="name">Nombre Completo</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required placeholder=" ">
+                    <label for="email">Correo Electrónico</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="4" required placeholder=" "></textarea>
+                    <label for="message">Idea o Mensaje</label>
+                </div>
+                <button type="submit" class="btn btn-primary submit-btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year">2026</span> Desarrollador Web. Diseño Minimalista y Oscuro.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
